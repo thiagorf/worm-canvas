@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  border: 2px solid #e3e3e3;
+}
+
+.canvas-wraper {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.canvas-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.canvas-inputs input {
+  width: 45px;
+}
+
+.canvas-start-btn {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px 2px;
+}
