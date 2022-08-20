@@ -19,3 +19,11 @@ A ilusão de movimentos do canvas se da ao reset do canvas (cleanRect) e exibiç
 É necessário a versão 16 ou superior do node e um navegador, ao clonar ou baixar o projeto, rode o seguinte comando na raiz do projeto `yarn` e depois `yarn dev`
 
 Agora o localhost:5173 esta disponível no navegador
+
+## Com o docker
+
+Caso o docker já esteja instalado em seu ambiente, rode o comando `yarn docker:build` e apos concluir o build do Dockerfile, rode `yarn docker:run`
+
+Abra o localhost:8000 e veja o site funcionando,
+
+> para pausar o container utilize ctrl + c no terminal que ele foi executado
